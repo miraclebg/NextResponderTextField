@@ -43,6 +43,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0F0481EA215E0ECA00C89338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54433B1C1DA8F67F0032AF9C /* NextResponderTextField-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NextResponderTextField-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54433B1F1DA8F67F0032AF9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54433B211DA8F67F0032AF9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,9 +52,8 @@
 		54433B291DA8F67F0032AF9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54433B2B1DA8F67F0032AF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54433B4B1DA8F7870032AF9C /* NextResponderTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NextResponderTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54433B4D1DA8F7880032AF9C /* NextResponderTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextResponderTextField.h; sourceTree = "<group>"; };
-		54433B4E1DA8F7880032AF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54433B581DA8F83A0032AF9C /* NextResponderTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextResponderTextField.swift; sourceTree = "<group>"; };
+		54433B4D1DA8F7880032AF9C /* NextResponderTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NextResponderTextField.h; path = Source/NextResponderTextField.h; sourceTree = "<group>"; };
+		54433B581DA8F83A0032AF9C /* NextResponderTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NextResponderTextField.swift; path = Source/NextResponderTextField.swift; sourceTree = "<group>"; };
 		54433B5B1DA8FA3B0032AF9C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		54433B5C1DA8FA3B0032AF9C /* NextResponderTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = NextResponderTextField.podspec; sourceTree = "<group>"; };
 		54433B5D1DA8FA3B0032AF9C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -113,9 +113,9 @@
 		54433B4C1DA8F7880032AF9C /* NextResponderTextField */ = {
 			isa = PBXGroup;
 			children = (
+				0F0481EA215E0ECA00C89338 /* Info.plist */,
 				54433B4D1DA8F7880032AF9C /* NextResponderTextField.h */,
 				54433B581DA8F83A0032AF9C /* NextResponderTextField.swift */,
-				54433B4E1DA8F7880032AF9C /* Info.plist */,
 			);
 			name = NextResponderTextField;
 			path = Sources;

@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "NextResponderTextField"
-  s.version          = "3.0.1"
+  s.version          = "3.0.2"
   s.summary          = "Automatically moves to the next UITextField when tapping the keyboard action button"
   s.description      = <<-DESC
 
@@ -46,5 +46,5 @@ Password.nextResponderField -> Sign In
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Sources/**/*.swift'
+  s.source_files = 'Sources/Source/*.swift'
 end
